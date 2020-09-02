@@ -1,6 +1,6 @@
-import { defineConfig } from 'umi';
+// import { defineConfig } from 'umi';
 
-export default defineConfig({
+export default ({
   // layout: {},
   // nodeModulesTransform: {
   //   type: 'none',
@@ -8,7 +8,8 @@ export default defineConfig({
 
 	title: false,
   // routes: [
-	// 	{ path: '/', exact: true, component: 'index'},
-	// 	{ path: '/user', exact: true, component: 'user' },
+	// 	// { path: '/', exact: true, component: 'index'},
+	// 	// { path: '/user', exact: true, component: 'user' },
+	// 	// { component: '404.tsx' },
   // ]
 });

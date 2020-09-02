@@ -1,7 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
-
-import styles from './index.less';
+import Home from '../Home';
 
 export default () => {
   return (
@@ -12,7 +11,7 @@ export default () => {
 				<link rel="canonical" href="http://mysite.com/example" />
 			</Helmet>
 
-      <h1 className={styles.title}>Page index</h1>
+      <Home />
     </div>
   );
 }
